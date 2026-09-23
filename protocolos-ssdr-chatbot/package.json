@@ -1,0 +1,9 @@
+{
+  "name": "asistente-protocolos-ryc-ssdr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chatbot de consulta de todos los Protocolos de Referencia y Contrarreferencia del SSDR (busqueda BM25 + Gemini, capa gratuita)",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}

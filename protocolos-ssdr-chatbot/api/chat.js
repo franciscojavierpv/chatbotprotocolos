@@ -9,7 +9,7 @@ const MAX_HISTORY = 20;
 // solicitudes por minuto en la capa gratuita; gemini-2.5-flash tiene algo
 // mas de capacidad de razonamiento si el limite (mas bajo) no es problema.
 // Ver README para como cambiarlo.
-const GEMINI_MODEL = 'gemini-2.5-flash-lite';
+const GEMINI_MODEL = 'gemini-3.5-flash-lite';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 const BASE_INSTRUCTIONS = `Eres el asistente de consulta de los "Protocolos de Referencia y Contrarreferencia" del Servicio de Salud del Reloncavi (SSDR). Este corpus reune protocolos de multiples especialidades (Cardiologia, Oftalmologia, Otorrinolaringologia, Urologia, Cirugia Infantil y Adulto, Nefrologia, Oncologia Infantil, Ginecologia, Odontologia, Neurologia, entre otras).
